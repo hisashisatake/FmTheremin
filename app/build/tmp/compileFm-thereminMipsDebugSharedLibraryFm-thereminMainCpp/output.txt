@@ -1,0 +1,26 @@
+See file:///home/satake/StudioProjects/FmTheremin/app/build/tmp/compileFm-thereminMipsDebugSharedLibraryFm-thereminMainCpp/output.txt for all output for compileFm-thereminMipsDebugSharedLibraryFm-thereminMainCpp.
+compiling myFM.cpp successful.
+clang++: warning: optimization flag '-finline-functions' is not supported
+
+compiling soundGenerator.cpp successful.
+clang++: warning: optimization flag '-finline-functions' is not supported
+
+compiling playSimpleBufferQueue.cpp successful.
+clang++: warning: optimization flag '-finline-functions' is not supported
+
+compiling main.cpp successful.
+clang++: warning: optimization flag '-finline-functions' is not supported
+/home/satake/StudioProjects/FmTheremin/app/src/main/jni/main.cpp:185:19: warning: & has lower precedence than ==; == will be evaluated first [-Wparentheses]
+                        if (action & AMOTION_EVENT_ACTION_MASK == AMOTION_EVENT_ACTION_POINTER_DOWN)
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/satake/StudioProjects/FmTheremin/app/src/main/jni/main.cpp:185:19: note: place parentheses around the '==' expression to silence this warning
+                        if (action & AMOTION_EVENT_ACTION_MASK == AMOTION_EVENT_ACTION_POINTER_DOWN)
+                                   ^
+                                     (                                                             )
+/home/satake/StudioProjects/FmTheremin/app/src/main/jni/main.cpp:185:19: note: place parentheses around the & expression to evaluate it first
+                        if (action & AMOTION_EVENT_ACTION_MASK == AMOTION_EVENT_ACTION_POINTER_DOWN)
+                                   ^
+                            (                                 )
+1 warning generated.
+
+Finished compileFm-thereminMipsDebugSharedLibraryFm-thereminMainCpp, see full log file:///home/satake/StudioProjects/FmTheremin/app/build/tmp/compileFm-thereminMipsDebugSharedLibraryFm-thereminMainCpp/output.txt.

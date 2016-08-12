@@ -1,0 +1,4 @@
+See file:///home/satake/StudioProjects/FmTheremin/nativeactivity/build/tmp/compileFm-thereminMips64DebugSharedLibraryFm-thereminMainC/output.txt for all output for compileFm-thereminMips64DebugSharedLibraryFm-thereminMainC.
+compiling android_native_app_glue.c successful.
+
+Finished compileFm-thereminMips64DebugSharedLibraryFm-thereminMainC, see full log file:///home/satake/StudioProjects/FmTheremin/nativeactivity/build/tmp/compileFm-thereminMips64DebugSharedLibraryFm-thereminMainC/output.txt.

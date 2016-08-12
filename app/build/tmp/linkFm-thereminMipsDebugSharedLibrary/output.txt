@@ -1,0 +1,4 @@
+See file:///home/satake/StudioProjects/FmTheremin/app/build/tmp/linkFm-thereminMipsDebugSharedLibrary/output.txt for all output for linkFm-thereminMipsDebugSharedLibrary.
+linking libfm-theremin.so successful.
+
+Finished linkFm-thereminMipsDebugSharedLibrary, see full log file:///home/satake/StudioProjects/FmTheremin/app/build/tmp/linkFm-thereminMipsDebugSharedLibrary/output.txt.
