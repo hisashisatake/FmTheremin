@@ -1,4 +1,0 @@
-See file:///home/satake/StudioProjects/FmTheremin/nativeactivity/build/tmp/createFm-thereminMipsDebugStaticLibrary/output.txt for all output for createFm-thereminMipsDebugStaticLibrary.
-archiving libfm-theremin.a successful.
-
-Finished createFm-thereminMipsDebugStaticLibrary, see full log file:///home/satake/StudioProjects/FmTheremin/nativeactivity/build/tmp/createFm-thereminMipsDebugStaticLibrary/output.txt.

@@ -1,5 +1,0 @@
-See file:///home/satake/StudioProjects/FmTheremin/nativeactivity/build/tmp/linkFm-thereminX86_64DebugSharedLibrary/output.txt for all output for linkFm-thereminX86_64DebugSharedLibrary.
-linking libfm-theremin.so successful.
-x86_64-linux-android-g++: warning: /home/satake/StudioProjects/FmTheremin/nativeactivity/build/intermediates/objectFiles/x86_64DebugSharedLibrary/fm-thereminMainC/21opvl5t3xq68j0alzu4xu0bd/android_native_app_glue.o: linker input file unused because linking not done
-
-Finished linkFm-thereminX86_64DebugSharedLibrary, see full log file:///home/satake/StudioProjects/FmTheremin/nativeactivity/build/tmp/linkFm-thereminX86_64DebugSharedLibrary/output.txt.

@@ -1,4 +1,0 @@
-See file:///home/satake/StudioProjects/FmTheremin/nativeactivity/build/tmp/compileFm-thereminMipsDebugStaticLibraryFm-thereminMainC/output.txt for all output for compileFm-thereminMipsDebugStaticLibraryFm-thereminMainC.
-compiling android_native_app_glue.c successful.
-
-Finished compileFm-thereminMipsDebugStaticLibraryFm-thereminMainC, see full log file:///home/satake/StudioProjects/FmTheremin/nativeactivity/build/tmp/compileFm-thereminMipsDebugStaticLibraryFm-thereminMainC/output.txt.

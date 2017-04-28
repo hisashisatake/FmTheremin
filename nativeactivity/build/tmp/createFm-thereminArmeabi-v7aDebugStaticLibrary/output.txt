@@ -1,4 +1,0 @@
-See file:///home/satake/StudioProjects/FmTheremin/nativeactivity/build/tmp/createFm-thereminArmeabi-v7aDebugStaticLibrary/output.txt for all output for createFm-thereminArmeabi-v7aDebugStaticLibrary.
-archiving libfm-theremin.a successful.
-
-Finished createFm-thereminArmeabi-v7aDebugStaticLibrary, see full log file:///home/satake/StudioProjects/FmTheremin/nativeactivity/build/tmp/createFm-thereminArmeabi-v7aDebugStaticLibrary/output.txt.
