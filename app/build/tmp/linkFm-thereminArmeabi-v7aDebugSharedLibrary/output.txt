@@ -1,4 +1,0 @@
-See file:///home/satake/StudioProjects/FmTheremin/app/build/tmp/linkFm-thereminArmeabi-v7aDebugSharedLibrary/output.txt for all output for linkFm-thereminArmeabi-v7aDebugSharedLibrary.
-linking libfm-theremin.so successful.
-
-Finished linkFm-thereminArmeabi-v7aDebugSharedLibrary, see full log file:///home/satake/StudioProjects/FmTheremin/app/build/tmp/linkFm-thereminArmeabi-v7aDebugSharedLibrary/output.txt.

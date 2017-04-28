@@ -39,16 +39,16 @@ void myFM::genFM(double fc)
 	//    double *ac, fc, *am, ratio, gain, S;
 	double S, ac, am, num, fm;
 
-	pcm.fs = 44100; /* •W–{‰»ü”g” */
-	pcm.bits = 16; /* —Êq‰»¸“x */
-	pcm.length = OUTPUT_FRAMES; /* ‰¹ƒf[ƒ^‚Ì’·‚³ */
-	//pcm.s = (double*)calloc(pcm.length, sizeof(double)); /* ‰¹ƒf[ƒ^ */
+	pcm.fs = 44100; /* æ¨™æœ¬åŒ–å‘¨æ³¢æ•° */
+	pcm.bits = 16; /* é‡å­åŒ–ç²¾åº¦ */
+	pcm.length = OUTPUT_FRAMES; /* éŸ³ãƒ‡ãƒ¼ã‚¿ã®é•·ã• */
+	//pcm.s = (double*)calloc(pcm.length, sizeof(double)); /* éŸ³ãƒ‡ãƒ¼ã‚¿ */
 
 	//ac = (double*)calloc(pcm.length, sizeof(double));
 	//am = (double*)calloc(pcm.length, sizeof(double));
 
 #if 0
-	/* ƒLƒƒƒŠƒAU• */
+	/* ã‚­ãƒ£ãƒªã‚¢æŒ¯å¹… */
 	gate = pcm.fs * 4;
 	duration = pcm.fs * 4;
 	A = 0;
@@ -57,9 +57,9 @@ void myFM::genFM(double fc)
 	R = pcm.fs * 4;
 	ADSR(ac, A, D, S, R, gate, duration);
 
-	fc = 440.0; /* ƒLƒƒƒŠƒAü”g” */
+	fc = 440.0; /* ã‚­ãƒ£ãƒªã‚¢å‘¨æ³¢æ•° */
 
-	/* ƒ‚ƒWƒ…ƒŒ[ƒ^U• */
+	/* ãƒ¢ã‚¸ãƒ¥ãƒ¬ãƒ¼ã‚¿æŒ¯å¹… */
 	gate = pcm.fs * 4;
 	duration = pcm.fs * 4;
 	A = 0;
@@ -69,7 +69,7 @@ void myFM::genFM(double fc)
 	ADSR(am, A, D, S, R, gate, duration);
 
 	ratio = 3.5;
-	fm = fc * ratio; /* ƒ‚ƒWƒ…ƒŒ[ƒ^ü”g” */
+	fm = fc * ratio; /* ãƒ¢ã‚¸ãƒ¥ãƒ¬ãƒ¼ã‚¿å‘¨æ³¢æ•° */
 #endif
 
 	A = 0;
@@ -90,7 +90,7 @@ void myFM::genFM(double fc)
 
 	fm = fc * 3.5;
 
-	/* FM‰¹Œ¹ */
+	/* FMéŸ³æº */
 	//    for (n = 0; n < pcm.length; n++)
 	for (int n = 0; n < OUTPUT_FRAMES; n++)
 	{
@@ -99,7 +99,7 @@ void myFM::genFM(double fc)
 		//num = sin(2.0 * M_PI * fc * keyon / pcm.fs);
 		outputBuffer[n] = num;
 
-		//ƒƒO‚ğo—Í
+		//ãƒ­ã‚°ã‚’å‡ºåŠ›
 		//if (keyon % 1000 == 0) {
 		//	LOGI("buf:%f", num);
 		//  LOGI("keyon:%d", keyon);

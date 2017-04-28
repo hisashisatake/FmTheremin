@@ -15,10 +15,10 @@
 
 typedef struct
 {
-  int fs; /* •W–{‰»ü”g” */
-  int bits; /* —Êq‰»¸“x */
-  int length; /* ‰¹ƒf[ƒ^‚Ì’·‚³ */
-  double* s; /* ‰¹ƒf[ƒ^ */
+  int fs; /* æ¨™æœ¬åŒ–å‘¨æ³¢æ•° */
+  int bits; /* é‡å­åŒ–ç²¾åº¦ */
+  int length; /* éŸ³ãƒ‡ãƒ¼ã‚¿ã®é•·ã• */
+  double* s; /* éŸ³ãƒ‡ãƒ¼ã‚¿ */
 } MONO_PCM;
 
 #define OUTPUT_FRAMES 10
